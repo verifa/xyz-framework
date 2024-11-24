@@ -2,7 +2,10 @@
 
 ## Introduction
 
-XYZ is a framework to help platform teams build user-centric internal platforms to streamline the value creation process for its users. It is not a holistic framework which includes everything you might need for building an internal platform. The purpose of XYZ is to help you focus on your users, rather than on the engineering of a platform.
+XYZ is a framework to help platform teams build user-centric internal platforms to streamline the value creation process for internal users (i.e. stream-aligned teams in Team Topologies). It is not a holistic framework which includes everything you need for building an internal platform. The purpose of XYZ is to help you focus on your users, rather than on the engineering of a platform.
+
+> [!NOTE]  
+> This is a work in progress and "XYZ" is a placeholder name until we come up with something good - suggestions welcome!
 
 The core of the framework is about splitting the platform architecture into three layers: abstraction, API and interface. By starting with the abstraction, the platform team is required to design the platform from their users’ perspective and domain.
 
@@ -27,9 +30,9 @@ The framework helps you build user centric platforms. User centric platforms hav
 
 ### Business benefits
 
-- Streamline the value creation process for its users. Accelerated software delivery.
+- Streamline the value creation process for users (e.g. accelerate software delivery).
 - Autonomy and self-service for users.
-- Decouple users from underlying capabilities: today it is Kubernetes, tomorrow it could be AWS ECS.
+- Decouple users from underlying capabilities: today it is AWS ECS, tomorrow it could be Kubernetes.
 - Simple for users, but not necessarily simple to build: “simplicity is the art of hiding complexity” (Rob Pike)
 - Scale: by modelling your data you will have a structure and process that scales, unlike letting your users create their own setups in the various tools you use.
 
@@ -40,9 +43,11 @@ The framework helps you build user centric platforms. User centric platforms hav
 
 ## What you will get
 
-TODO: If you follow this framework, what can you hope to achieve?
+If you follow this framework you will be more connected with your users and think in their domain, not the platform team's domain.
+This is important because the platform team's domain is the kind of complexity you want to shield the user from, and allow them to work in their domain or one that they can easily understand.
 
-Force you to meet your (potential) users, understand how they work, the domain that they work in, their pains and their needs. From that define a platform abstraction which is a design/hypotheses that you evaluate through building a product (i.e. the platform).
+By using methods in the [assess](./assess.md) phase you will be forced to meet your (potential) users, understand the domain that they work in, their pains and their needs.
+This research will allow you to start defining a platform abstraction that is user-centric and is refined as you iteratively build your platform.
 
 ## What is not included
 
@@ -61,12 +66,12 @@ The goal of this framework is to provide practical guidance for placing users at
 
 ## Project status
 
-As you probably noticed, this framework is not very mature.
-However, don't let that deter you because we (Verifa) have already found value in using it to guide teams.
+This framework is a work in progress.
+However, don't let that deter you because we (at Verifa) have already found value in using it to guide teams.
 
 ## Contributing
 
-TODO. For now, please use discussions for discussions, issues for issues and PRs for making changes.
+Please use discussions for discussions, issues for issues and PRs for making changes.
 
 ## FAQ
 

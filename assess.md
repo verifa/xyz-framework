@@ -31,15 +31,17 @@ Easy to assess what interfaces a developer needs to interact with.
 
 ### Research Method: Gemba walks
 
+TODO: write about gemba walks: persons involved, their benefits and how to conduct them.
+
 Note: gemba walks in the remote age do not require you to meet in person, they can be done with screen sharing and the main goal is observing your users work.
 
 ### Research Method: Surveys
 
-TODO
+TODO: write about surveys: persons involved, their benefits and how to conduct them.
 
 ## Goal
 
-What is the Definition of Done for the assess phase? Goal is to learn enough about your users to define or refine your [platform abstraction](./build.md).
+The goal is to learn enough about your users to help you define and refine your [platform abstraction](./build.md).
 
 ## Notes
 
@@ -48,4 +50,5 @@ This for you to figure out what works best.
 
 ## Things to consider
 
-- Do not expect everyone in your target audience to be a target user: it is better to make something great for a few people than build something general for everyone
+- Do not expect everyone in your target audience to be a target user: it is better to make something great for a few people than build something general for everyone.
+- Focus on working in the users' domain and vocabularly. Try to understand how deep thier knowledge goes into the underlying parts of the platform capabilities. This will help you get a feel for the level of abstraction and enablement that might be necessary.
